@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/029cd40c2a7d917deb8a6556/w/b07856ac49435f29c7b4c4df/e/315de9391a15f3fb20148cfd -->
+<robot name="my_robot_description">
+  <!-- Link part_1 -->
+  <link name="part_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part part_1 -->
+    <visual>
+      <origin xyz="-0.0979459 0.0546171 0.199756" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+      <material name="part_1_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0979459 0.0546171 0.199756" rpy="-1.5708 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/part_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
